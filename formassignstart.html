@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Garden Company</title>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+
+<style>
+
+   * {      
+      margin: 0;
+      padding: 0}
+   
+   body {
+      background-color: #006633;
+      font-size: 17px;
+   }
+
+   header {
+      background: url(images/leaf-green.jpg); 
+      box-shadow: 4px 4px 8px black;
+      color: white;
+      text-align: center;
+      text-shadow: 4px 4px 6px black;
+      height: 100px;
+   }
+
+   h1 {
+      font-family: "Berkshire Swash", serif;
+      font-size: 280%;
+      letter-spacing: 4px;
+      padding: 5px;
+   }
+
+   #page {
+      width: 760px; 
+      height: 860px; 
+      padding: 20px;      
+      margin: 20px auto; 
+      background-color: white; 
+      background-image: url(images/flower.jpg); 
+      background-position: 160px 200px; 
+      background-repeat: no-repeat;
+      box-shadow: 4px 4px 8px black;
+   }
+
+   nav{
+      margin: 20px;
+   }
+
+   h2{
+      color:#007d3e;
+      font-weight: bold;
+      margin: 20px 0;
+      font-size: 180%;
+      font-family: arial,helvetica,sans-serif;
+   }
+
+   table{
+      border-spacing: 12px;
+      border-color: grey;
+   }
+
+   td{
+      width: 15%;
+   }
+
+   input[type=text], input[type=email]{
+      width: 40%;
+      padding: 2px;
+      border: 1px solid rgb(192, 192, 192);
+   }
+
+   input[type=text]#city{
+      width: 25%;
+      padding: 2px;
+      border: 1px solid rgb(192, 192, 192);
+   }
+
+   input[type=text]#zip{
+      width: 10%;
+      padding: 2px;
+      border: 1px solid rgb(192, 192, 192);
+   }
+
+   input[type=text]#phone{
+      width: 15%;
+      padding: 2px;
+      border: 1px solid rgb(192, 192, 192);
+   }
+
+   input[type=submit], input[type=reset]{
+      padding: 5px;
+      border: 1px solid rgb(192, 192, 192);
+      border-radius: 5px;
+      background-color: white;
+   }
+
+   input[type=radio]{
+      margin: 4px;
+   }
+
+   input[type=checkbox]{
+      margin: 4px;
+      accent-color: hsl(209, 63%, 55%);
+   }
+
+   select{
+      border-radius: 4px;
+      border: 1px solid rgb(192, 192, 192);
+   }
+
+   hr {
+      background-color: #018040;
+      height: 1.3px;
+   }
+
+   footer{
+      padding: 15px 0;
+   }
+
+</style>
+
+</head>
+
+<body>
+
+<div id="page">
+   
+<header>
+   <h1>The Garden Company</h1>
+   <h4>Helping you help your gardens grow since 1975</h4>
+</header>
+
+<nav>
+   <a href=#><img class="nav-link" src="images/btn_home.gif" alt="home button"> </a> 
+   <a href=#><img class="nav-link" src="images/btn_tips.gif" alt="tips button">   </a>
+   <a href=#><img class="nav-link" src="images/btn_problem.gif" alt="problem button">   </a>
+   <a href=#><img class="nav-link" src="images/btn_products.gif" alt="products button">  </a> 
+   <a href=#><img class="nav-link" src="images/btn_about.gif" alt="about button"> </a>
+   <a href=#><img class="nav-link" src="images/btn_contact.gif" alt="contact button"> </a>
+</nav>
+
+<h2>Sign Up for E-Mail Specials</h2>
+   
+<form action="http://www.patzweb.net/formecho.php" method="post">
+   
+<table>   
+
+   <tr>
+      <td>Name:</td>
+      <td><input type=text name=username></td>
+   </tr>
+
+   <tr>
+      <td>E-mail Address:</td>
+      <td><input type=email name=email placeholder="Enter your e-mail address"></td>
+   </tr>
+
+   <tr>
+      <td>Mailing Address:</td>
+      <td><input type=text name=address></td>
+   </tr>
+
+   <tr>
+      <td>City:</td>
+      <td><input id=city type=text name=city></td>
+   </tr>
+
+   <tr>
+      <td><label for="state">State:</label></td>
+      <td><select name="state" id="state">
+      <optgroup label="States">
+        <option>Alabama</option>
+        <option>Alaska</option>
+        <option>Arizona</option>
+        <option>Arkansas</option>
+        <option>California</option>
+        <option>Colorado</option>
+        <option>Connecticut</option>
+        <option>Delaware</option>
+        <option>Florida</option>
+        <option>Georgia</option>
+        <option>Hawaii</option>
+        <option>Idaho</option>
+        <option>Illinois</option>
+        <option>Indiana</option>
+        <option>Iowa</option>
+        <option>Kansas</option>
+        <option>Kentucky</option>
+        <option>Louisiana</option>
+        <option>Maine</option>
+        <option>Maryland</option>
+        <option>Massachusetts</option>
+        <option>Michigan</option>
+        <option>Minnesota</option>
+        <option>Mississippi</option>
+        <option>Missouri</option>
+        <option>Montana</option>
+        <option>Nebraska</option>
+        <option>Nevada</option>
+        <option>New Hampshire</option>
+        <option>New Jersey</option>
+        <option>New Mexico</option>
+        <option>New York</option>
+        <option>North Carolina</option>
+        <option>North Dakota</option>
+        <option>Ohio</option>
+        <option>Oklahoma</option>
+        <option>Oregon</option>
+        <option>Pennsylvania</option>
+        <option>Rhode Island</option>
+        <option>South Carolina</option>
+        <option>South Dakota</option>
+        <option>Tennessee</option>
+        <option>Texas</option>
+        <option>Utah</option>
+        <option>Vermont</option>
+        <option>Virginia</option>
+        <option>Washington</option>
+        <option>West Virginia</option>
+        <option>Wisconsin</option>
+        <option>Wyoming</option>
+        </optgroup>
+        <optgroup label="Territories">
+        <option>American Samoa</option>
+        <option>Guam</option>
+        <option>Northern Mariana Islands</option>
+        <option>Puerto Rico</option>
+        <option>U.S. Virgin Islands</option>
+        </optgroup>
+      </select>
+      </td>
+   </tr>
+
+   <tr>
+      <td>Zip:</td>
+      <td><input id=zip type=text name=zip></td>
+   </tr>
+
+   <tr>
+      <td>Phone:</td>
+      <td><input id=phone type=text name=phone></td>
+   </tr>
+
+   <tr>
+      <td>Level of gardening expertise:</td>
+      <td>
+         <label>
+            <input type="radio" name="level" value="Beginner">Beginner
+         </label><br>
+			<label>
+            <input type="radio" name="level" value="Intermediate">Intermediate
+         </label><br>
+			<label>
+            <input type="radio" name="level" value="Expert">Expert
+         </label><br>
+         <label>
+            <input type="radio" name="level" value="Professional">Professional
+         </label>
+      </td>
+   </tr>
+
+	<tr>
+      <td></td>
+		<td>
+			<label><input type="checkbox" name="coupons">Yes, I would also like to recieve coupons and offers from other gardening-related companies.</label>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Comments </td> 
+		<td><textarea name="comments" rows="6" cols="50" placeholder="Enter comments here"></textarea></td>
+	</tr>
+
+   <tr>
+      <td></td>
+      <td>
+         <input type=submit value=Submit>
+         <input type=reset value=Clear>
+      </td>
+   </tr>
+
+</table>
+
+</form>
+
+<hr>
+
+<footer>
+   <p>Copyright &copy; 2018 The Garden Company&#8482;</p>
+   <p>No material may be reproduced without written permission</p>
+   <a href="#"><p>Contact the Webmaster</p></a>
+</footer>
+
+</div>
+</body>
+</html>
